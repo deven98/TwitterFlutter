@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class MessagesPage extends StatefulWidget {
   @override
@@ -19,6 +20,11 @@ class _MessagesPageState extends State<MessagesPage> {
             child: Icon(Icons.settings, color: Colors.blue,),
           )
         ],
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+        },
+        child: Icon(FontAwesomeIcons.envelope),
       ),
     );
   }

@@ -21,6 +21,11 @@ class _NotificationPageState extends State<NotificationPage> {
           )
         ],
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+        },
+        child: Icon(FontAwesomeIcons.featherAlt),
+      ),
     );
   }
 }
